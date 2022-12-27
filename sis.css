@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Diplomata+SC&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    background-color: gray;
+}
+.banner{
+    background-color: gray;
+    height: 52px;
+    width: 100vw;
+    text-align: center;
+    font-size: 29px;
+    font-weight: bold;
+    font-family: 'Diplomata SC', cursive;
+}
+.navbar{
+    background-color: rgb(97, 97, 97);
+    display: flex;
+    justify-content: center;
+}
+.hero img{
+    margin-top: 8rem;
+    height: 20rem;
+}
+footer{
+    height: 110px;
+    background-color:gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .footerbody{
+    display: flex;
+    flex-direction: column;
+    height: 110px;
+    width: 70vw;
+}
+footer .info{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+footer .navigation{
+    margin-top: 1rem;
+}
+
+footer .navigation ul{
+    display: flex;
+}
+/* footer .navigat
+} */
+.navbar ul{
+    display: flex;
+    width: 60vw;
+    text-align: center;
+    justify-content: space-around;
+    padding: 2px;
+}
+.navbar ul li{
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+color: black;
+}
+.marquee{
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    width: 70vw;
+    margin: auto;
+    background-color: gray;
+}
+
+.hero{
+    height: 72.5vh;
+    background-color:rgb(151, 151, 151);
+    display: flex;
+    justify-content: center;
+}
+    footer .navigation ul li{
+    list-style: none;
+    justify-content: start;
+    margin-left: 50px; 
+    text-transform: uppercase;
+    font-weight: bold;
+    }
+footer .navigation ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/* ------------Insert CSS---------- */
+.insertContainer{
+    margin-top: 1rem;
+    display: flex;
+    height: 60vh;
+    width: 70vw;
+    box-shadow: 0px 0px 30px 0px black;
+    /* background-color: aqua; */
+}
+.insertContainer .personalInfo {
+    height: 50vh;
+    width: 35vw;
+    /* background-color: blue; */
+    padding:1.54rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.insertContainer .inputbox{
+    display: flex;
+    justify-content: space-between;
+
+}
+.insertContainer .inputbox .lable{
+    font-weight: bold;
+}
+.insertContainer .inputbox input{
+    padding: .3rem;
+    font-size: 1rem;
+    height: 1.5rem;
+    width: 15rem;
+    background-color: rgb(192, 192, 192);
+    border: 1px;
+}
+.insertContainer .extrainfor{
+    height: 50vh;
+    width: 35vw;
+    /* background-color: rgb(64, 64, 241); */
+    padding:1.54rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.submitbox{
+    display: flex;
+    justify-content: end;
+    /* background-color: black; */
+}
+.submitbox input{
+    position: absolute;
+    margin-top: -4rem;
+    margin-right: 2rem;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 10px;
+    background-color: rgb(97, 97, 97);
+    border: 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.studentid{
+    font-weight: bold;
+    height: 1.5rem;
+    width: 25rem;
+    margin: auto;
+    margin-top: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+.studentid input{
+    padding: .3rem;
+    font-size: 1rem;
+    color: #000000;
+    height: 1.5rem;
+    width: 15rem;
+    background-color: rgb(192, 192, 192);
+    border: 1px;
+}
+
+/* .studentid{
+    background-color: burlywood;
+} */
+
+/* ------------ delete CSS ---------- */
+.deleteContainer{
+    margin-top: 1rem;
+    display: flex;
+    height: 18vh;
+    width: 70vw;
+    box-shadow: 0px 0px 30px 0px black;
+    /* background-color: aqua; */
+}
+.deleteContainer .personalInfo{
+    width: 35vw;
+}
+.deleteContainer .extrainfor{
+    
+    height: 9vh;
+    width: 35vw;
+    /* background-color: blue; */
+    padding:1.54rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.deleteContainer .personalInfo {
+    height: 9vh;
+    width: 35vw;
+    /* background-color: blue; */
+    padding:1.54rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.deleteContainer .inputbox{
+    display: flex;
+    justify-content: space-between;
+
+}
+.deleteContainer .inputbox .lable{
+    font-weight: bold;
+}
+.deleteContainer .inputbox input{
+    padding: .3rem;
+    font-size: 1rem;
+    height: 1.5rem;
+    width: 15rem;
+    background-color: rgb(192, 192, 192);
+    border: 1px;
+}
+.getbtn input{
+clear: right;
+}
