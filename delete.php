@@ -8,6 +8,10 @@
     <title>Student Information System</title>
 </head>
 <body>
+    
+<div id="loader">
+        <div class="load"></div>
+    </div>
     <header>
         <div class="banner">
             STUDENT INFORMATION SYSTEM
@@ -79,6 +83,6 @@
             </div>
         </div>
     </footer>
-    
+    <script src="./app.js"></script>
 </body>
 </html>

@@ -8,6 +8,10 @@
     <title>Student Information System</title>
 </head>
 <body>
+    
+<div id="loader">
+        <div class="load"></div>
+    </div>
 <?php
    
 $servername = "localhost";
@@ -199,6 +203,6 @@ if($row){
             </div>
         </div>
     </footer>
-    
+    <script src="./app.js"></script>
 </body>
 </html>

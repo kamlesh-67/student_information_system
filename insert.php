@@ -8,6 +8,9 @@
     <title>Student Information System</title>
 </head>
 <body>
+    <div id="loader">
+        <div class="load"></div>
+    </div>
 
 <!-- <?php
 
@@ -212,5 +215,6 @@ else{
             
         }
     </script>
+    <script src="./app.js"></script>
 </body>
 </html>

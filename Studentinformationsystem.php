@@ -9,6 +9,9 @@
     <title>Student Information System</title>
 </head>
 <body>
+    <div id="loader">
+        <div class="load"></div>
+    </div>
     <header>
         <div class="banner">
             STUDENT INFORMATION SYSTEM
@@ -30,6 +33,28 @@
     <main>
         <div class="hero">
             <img src="Computer troubleshooting-amico.svg" alt="model">
+
+
+
+
+
+
+            <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/NHdasHko3Ls" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="display:none;"></iframe> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         </div>
     </main>
     <footer>
@@ -50,6 +75,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="./app.js"></script>
     
 </body>
 </html>
